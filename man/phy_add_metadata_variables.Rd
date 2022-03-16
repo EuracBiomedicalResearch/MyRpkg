@@ -4,7 +4,7 @@
 \alias{phy_add_metadata_variables}
 \title{Adds a set of metadata variables to the metadata of a phyloseq object. Make sure `rownames` contain the same names. Row ordering is taken care of internally}
 \usage{
-phy_add_metadata_variables(physeq, df, by)
+phy_add_metadata_variables(physeq, df)
 }
 \arguments{
 \item{physeq}{A `phyloseq` object}

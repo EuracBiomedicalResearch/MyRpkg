@@ -1,0 +1,7 @@
+nafld_phy <- readRDS("~/CHRIS-NAFLD stool microbiome/Input data microbiome/Polished data/nafld_stool_averaged_duplicates1&2_newMetadata 2020_10_13.rds")
+meta(nafld_phy) %>% 
+  ggplot(aes(x = NAFLD_fibrosis_score, y = fatty_liver_index)) +
+  geom_point()+ 
+  geom_smooth()+ 
+  facet_wrap(~T2D_motta)
+

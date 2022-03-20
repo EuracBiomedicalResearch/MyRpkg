@@ -1,0 +1,5 @@
+chrismb_phy_core_ped_selected_samples %>%
+  meta() %>% 
+  filter(age_cat == "31-40")
+
+age

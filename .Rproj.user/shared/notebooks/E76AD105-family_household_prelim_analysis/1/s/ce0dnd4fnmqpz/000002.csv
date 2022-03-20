@@ -1,0 +1,9 @@
+"0",""
+"0","div_bray_all_mtrx <- distance(microbiome::transform(chrismb_phy_core, ""compositional""), ""bray"") %>% "
+"0","  as.matrix()"
+"0",""
+"0","{div_bray_all_mtrx_upper <- div_bray_all_mtrx"
+"0","div_bray_all_mtrx_upper[upper.tri(div_bray_all_mtrx_upper, diag= TRUE)] <- NA"
+"0","}"
+"2","Error: object 'div_bray_all_mtrx' not found
+"

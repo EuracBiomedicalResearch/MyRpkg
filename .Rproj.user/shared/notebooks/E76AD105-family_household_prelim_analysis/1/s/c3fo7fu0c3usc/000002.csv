@@ -1,0 +1,2 @@
+"0","filter(house_n_families_and_individuals, n_families >1) %>% "
+"0","  arrange(-n_individuals)"

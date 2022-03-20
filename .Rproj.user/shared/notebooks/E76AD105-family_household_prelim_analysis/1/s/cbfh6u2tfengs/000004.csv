@@ -1,0 +1,3 @@
+"0","table(CHRISMB_only_pedigree$fam) %>% "
+"0","  sort(decreasing = TRUE) %>% "
+"0","  hist(main = ""distribution of N° individuals\nper family"")"

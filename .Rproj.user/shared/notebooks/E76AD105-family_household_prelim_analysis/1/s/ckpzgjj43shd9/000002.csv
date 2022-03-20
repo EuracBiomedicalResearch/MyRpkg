@@ -1,0 +1,13 @@
+"0",""
+"0","house_n_families_and_individuals <- filter(CHRISMB_only_pedigree, !grepl(""^0\\.|$)"", fam)) %>% # remove all households being 0, not too informative in family/house effects..?"
+"0","  group_by(HHID) %>% "
+"0","  summarise(HHID = HHID,"
+"0","            n_families = dplyr::n_distinct(fam),"
+"0","            n_individuals = n()"
+"0","            ) %>% "
+"0","  ungroup() %>% "
+"0","  distinct()"
+"1","[38;5;232m`summarise()` has grouped output by 'HHID'. You can override using the
+`.groups` argument.[39m
+"
+"0","house_n_families_and_individuals"

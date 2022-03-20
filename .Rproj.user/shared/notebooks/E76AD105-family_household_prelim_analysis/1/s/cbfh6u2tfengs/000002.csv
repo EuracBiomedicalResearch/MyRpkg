@@ -1,0 +1,6 @@
+"0","dir.create(""output_family_household"")"
+"0","png(""output_family_household/00_distrib_family_households.png"", height = 6, width = 12, units = ""in"", res = 300)"
+"0","par(mfrow = c(1,2))"
+"0","table(CHRISMB_only_pedigree$HHID) %>% "
+"0","  sort(decreasing = TRUE) %>% "
+"0","  hist(main = ""distribution of N° individuals\nper household"")"

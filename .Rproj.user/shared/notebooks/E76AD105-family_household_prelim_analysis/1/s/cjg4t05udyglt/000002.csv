@@ -1,0 +1,1 @@
+"0","# filter(CHRISMB_only_pedigree, grepl(""^0\\."", fam)) %>% .$HHID %>% table()"

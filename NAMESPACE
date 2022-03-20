@@ -1,4 +1,2 @@
 exportPattern("^[[:alpha:]]+")
-import(phyloseq)
-import(tidyverse)
-import(microbiome)
+import(phyloseq,tidyverse, microbiome)

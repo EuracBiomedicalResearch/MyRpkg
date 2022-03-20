@@ -1,10 +1,10 @@
 Package: MyFirstPackage
 Type: Package
-Title: Microbiome Analysis utilities
+Title: Data Analysis utilities (for data frames, phyloseq objects and much more)
 Version: 0.1.0
 Author: Giacomo Antonello
 Maintainer: Giacomo Antonello <giacomoantonello1@gmail.com>
-Description: Wrapping functions to work with microbiome data
+Description: Wrapping functions for my PhD project
 License: GPLv3
 Encoding: UTF-8
 LazyData: true
